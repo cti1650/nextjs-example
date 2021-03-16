@@ -1,10 +1,10 @@
-import Header from '../header';
+import QinHeader from '../header/qin';
 import Footer from '../footer';
 
 function Layout({children}) {
   return (
     <div className="main">
-      <Header/>
+      <QinHeader/>
       <div className="min-h-60vh">
         {children}
       </div>
