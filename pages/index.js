@@ -4,6 +4,7 @@ import Posts from '../src/components/home/posts';
 import TitleMessage from '../src/components/qin/TitleMessage';
 import MembersTextbox from '../src/components/qin/Textbox';
 import Description from '../src/components/qin/Description';
+import Editarea from '../src/components/qin/Editarea';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <TitleMessage />
       <MembersTextbox />
+      <Editarea />
       <Description />
     </Layout>
   )

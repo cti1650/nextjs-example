@@ -6,7 +6,7 @@ function MembersTextbox(props) {
             <textarea
                 name="members_list"
                 id="textarea"
-                className="border-0 outline-none block rounded-lg"
+                className="border-0 outline-none block rounded-lg w-full my-4"
                 placeholder="メンバーをドラッグ&ドロップ"
             >
             </textarea>
