@@ -1,5 +1,5 @@
 import QinHeader from '../header/qin';
-import Footer from '../footer';
+import QinFooter from '../footer/qin';
 
 function Layout({children}) {
   return (
@@ -8,7 +8,7 @@ function Layout({children}) {
       <div className="min-h-60vh">
         {children}
       </div>
-      <Footer/>
+      <QinFooter/>
     </div>
   )
 }
